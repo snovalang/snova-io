@@ -1,8 +1,21 @@
 # Snova IO (`Snova.Std.IO`)
 
-Biblioteca padrão de Entrada e Saída (I/O) em Snovalang puro.
+Standard Input and Output library written in 100% pure Snovalang.
 
-## Módulos
-- `Reader`, `Writer`, `Closer`
-- `ByteBuffer` (buffers de memória dinâmicos)
-- `copy` (streaming de dados e buffers)
+## Features
+- `Reader`, `Writer`, `Closer` stream interfaces
+- `ByteBuffer` in-memory dynamic buffer
+- `copy` stream piping and chunked data transfer
+
+## Documentation Example
+```snova
+/* -- Doc:{copy}
+ *
+ * -- Description: Copies all data from a Reader into a Writer until EOF is reached.
+ *
+ * -- Param{src}: Source readable stream.
+ * -- Param{dst}: Destination writable stream.
+ * -- Param{bufferSize}: Size of the temporary chunk buffer.
+ * -- Returns: Total number of bytes copied.
+ */
+```
