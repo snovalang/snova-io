@@ -8,7 +8,7 @@ Standard Input and Output library written in 100% pure Snovalang.
 - `copy` stream piping and chunked data transfer
 
 ## Documentation Example
-```snova
+```snl
 /* -- Doc:{copy}
  *
  * -- Description: Copies all data from a Reader into a Writer until EOF is reached.
