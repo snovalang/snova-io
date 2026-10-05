@@ -19,3 +19,8 @@ Standard Input and Output library written in 100% pure Snovalang.
  * -- Returns: Total number of bytes copied.
  */
 ```
+
+## License
+
+This project is licensed under the [Apache License, Version 2.0](LICENSE).
+Copyright 2026 Snovalang contributors. See [NOTICE](NOTICE).
